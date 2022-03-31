@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Travel Reserevation Form </title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body >
+<form>
+<fieldset>
+<legend>
+<h4>Application Form</h4></legend>
+
+<label for="fname">Full Name</label>
+<input  type="text" id="fname" ><br>
+<label for="email">Email </label>
+<input  type="text" id="email" ><br>
+
+
+Gender          
+<input type="radio" name="avail" value="M" unchecked>Male
+<input type="radio" name="avail" value="F" unchecked>Female
+<br>
+
+<label for="nationality">Nationality</label><br>
+<select name="nationality" id="gender" placeholder="">
+    <option value="n">-Select-</option>
+    <option value="p">Pakistani</option>
+    <option value="a">indian</option>
+</select><br>
+				
+<br>Skills<br> 
+<input type="checkbox" name="avail" value="M" unchecked>Asp.Net
+<input type="checkbox" name="avail" value="M" unchecked>jQuery
+<input type="checkbox" name="avail" value="M" unchecked>MVC
+<input type="checkbox" name="avail" value="M" unchecked>SqlServer
+				
+<br><br>Post Applying for<br>
+<input type="radio" name="avail" value="M" unchecked>Trainee
+<input type="radio" name="avail" value="M" unchecked>Software Engineer 
+<input type="radio" name="avail" value="M" unchecked>Team Leader
+<input type="radio" name="avail" value="M" unchecked>Project Manager<br>
+
+<br>Upload Resume: <input type="file" name="resume"><br>
+<br>Paste your resume 
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+</textarea><br><br>
+
+
+                
+<input type="checkbox" name="term" value="a" unchecked>
+Notify me the status via Email<br>
+                
+<input type="radio" name="term" value="a" unchecked>
+I agree to terms & conditions
+			   
+<br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>           
+</form> 
+</body>
+</html>
